@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Statis </title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            margin: 20px;
+        }
+        .media-container {
+            margin-top: 20px;
+        }
+        img, audio, video {
+            max-width: 80%;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Web Statis dengan Gambar, Audio, dan Video</h1>
+    
+    <div class="media-container">
+        <h2>Gambar</h2>
+        <img src="assets/images/tornado.jpg" alt="Contoh Gambar">
+    </div>
+    
+    <div class="media-container">
+        <h2>Audio</h2>
+        <audio controls>
+            <source src="assets/audio/dua takes.mp3" type="audio/mpeg">
+            
+        </audio>
+    </div>
+    <div class="media-container">
+        <h2>Video</h2>
+        <video controls>
+            <source src="assets/video/api.mp4" type="video/mp4">
+            
+        </video>
+    </div>
+    
+    <div class="media-container">
+        <h2>Multi Video</h2>
+        <video controls>
+            <source src="assets/video/laut.mp4" type="video/mp4">
+        </video>
+        <video controls>
+            <source src="assets/video/topan.mp4" type="video/mp4">
+        </video>
+    </div>
+</body>
+</html>
